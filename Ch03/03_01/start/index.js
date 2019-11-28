@@ -4,6 +4,8 @@ var uid = localStorage.getItem("user_id");
 
 console.log( "user_id: ", uid );
 
+//localStorage is not define
+
 if (!uid) {
     console.log('User ID not found. Setting the user id and token...');
     localStorage.setItem("token", "TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ");
