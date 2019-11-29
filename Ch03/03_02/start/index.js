@@ -1,4 +1,4 @@
-console.log( "localStorage length: ", localStorage.length );
+var localStorage = require('./localStorage');
 
 var uid = localStorage.getItem("user_id");
 
